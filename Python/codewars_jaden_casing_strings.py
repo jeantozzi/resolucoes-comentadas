@@ -17,4 +17,4 @@ def to_jaden_case(string):
     # caixa alta qualquer caracter depois de um não-alfabético. Isto significa que
     # "Aren't" viraria "Aren'T", o que não queremos.
     # Assim, foi preciso tratar cada palavra como uma string, e utilizar o
-    # str.capitalize(), que modifica somente o primeiro caracter alfabético da string.
+    # str.capitalize(), que modifica somente o primeiro caracter da string (sendo ele alfabético ou não).
